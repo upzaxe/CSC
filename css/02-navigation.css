@@ -32,8 +32,8 @@
 .brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--deep);line-height:1.1;letter-spacing:-.03em}
 
 .brand img {
-    width: 58px;
-    height: 58px;
+    width: 40px;
+    height: 42px;
     object-fit: contain;
 }
 .brand small{display:block;letter-spacing:.12em;font-size:.58rem;color:var(--ink);margin-top:4px}
