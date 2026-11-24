@@ -4,3 +4,24 @@
 @media(max-width:520px){.hero{min-height:780px}.hero .logos{margin-bottom:18px}.hero .logos img{height:35px}.hero-meta{font-size:.81rem}.title-script{font-size:clamp(3.5rem,14vw,5.1rem)}.hero-art{min-height:245px}.mascot{width:230px}.actions .btn{padding:12px 15px}.stats{gap:7px}.stat b{font-size:1.55rem}.stat span{font-size:.69rem}.intro-card{padding:22px 17px;font-size:.96rem}.guide-grid{grid-template-columns:1fr;text-align:center}.guide-copy .actions{justify-content:center}.cover{width:205px}.qr-row{text-align:left}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.footer-bottom{flex-direction:column}.card{padding:22px}.section-head{margin-bottom:30px}.timeline{gap:16px}.event h3{font-size:.95rem}}
 
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media (max-width: 520px) {
+    .hero .logos {
+        gap: 12px;
+        padding: 10px 20px;
+    }
+
+    .hero .logos img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .hero .logos img[alt="Logo CANDLE"] {
+        height: 68px;
+        width: 68px;
+    }
+
+    .brand img {
+        width: 50px;
+        height: 50px;
+    }
+}
