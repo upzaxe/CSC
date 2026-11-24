@@ -1,0 +1,10 @@
+/* CANDLE 2026 | 08-faq.css */
+.faq{background:#fff4d6}
+
+.faq-list{max-width:850px;margin:auto}
+
+details{background:#fffaf0;border:1px solid #e4c889;border-radius:12px;padding:15px 20px;margin-bottom:12px}
+
+summary{font-weight:800;cursor:pointer}
+
+details p{margin-top:10px;color:var(--muted);font-size:.95rem}

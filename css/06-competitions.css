@@ -1,0 +1,34 @@
+/* CANDLE 2026 | 06-competitions.css */
+.competitions{background:linear-gradient(#f9f5dd,#e2f3ef)}
+
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:21px}
+
+.card{border:1px solid #dcc48f;border-radius:24px;background:linear-gradient(150deg,#fffefa,#fff2ca);padding:27px;display:flex;flex-direction:column;box-shadow:0 12px 28px #76532112;position:relative;overflow:hidden}
+
+.card:before{content:"";position:absolute;inset:0 0 auto;height:5px;background:var(--accent,#4b9cb9)}
+
+.card:nth-child(2){--accent:#80a45b}
+
+.card:nth-child(3){--accent:#e8a747}
+
+.card-icon{width:88px;height:88px;background:#fffdf3;border:1px solid #e3cd9a;border-radius:25px;display:grid;place-items:center;font-size:42px;margin-bottom:15px;color:var(--deep)}
+
+.card-icon img{height:77px;width:77px;object-fit:contain}
+
+.card .acronym{font-family:Georgia,serif;font-size:2.5rem;color:var(--deep);line-height:1;margin:0 0 6px;font-weight:bold}
+
+.card h3{font-size:1rem;min-height:42px}
+
+.badge{align-self:flex-start;display:inline-block;background:#e1f2f4;color:#165777;font-size:.75rem;font-weight:bold;padding:4px 11px;border-radius:20px;margin:14px 0}
+
+.subjects{list-style:none;padding:0;margin:0 0 18px;font-size:.9rem;flex:1}
+
+.subjects li{padding:10px 0;border-bottom:1px dashed #dfcda2;display:flex;justify-content:space-between;gap:8px;align-items:center}
+
+.subjects li b{white-space:nowrap;color:#994416}
+
+.card-note{font-size:.8rem;color:var(--muted);min-height:45px;margin:0 0 14px}
+
+.card .actions{gap:8px;margin-top:0}
+
+.card .btn{flex:1;padding:10px 8px;font-size:.78rem;white-space:nowrap}

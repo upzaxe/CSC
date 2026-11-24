@@ -1,0 +1,18 @@
+/* CANDLE 2026 | 09-footer.css */
+.footer{background:#154f70;color:#fff8e4;padding:55px 0 22px}
+
+.footer .brand{color:#fff8e4}
+
+.footer .brand small{color:#f4d181}
+
+.footer-grid{display:grid;grid-template-columns:1.1fr 1.2fr 1fr;gap:35px}
+
+.footer h3{font-size:1rem;margin-bottom:12px;color:#ffd479}
+
+.footer p,.footer a{font-size:.85rem;line-height:1.8}
+
+.footer a:hover{text-decoration:underline}
+
+.footer .brand{font-size:1.3rem;margin-bottom:15px}
+
+.footer-bottom{border-top:1px solid #ffffff30;margin-top:30px;padding-top:18px;font-size:.75rem;display:flex;justify-content:space-between;gap:15px;color:#d4e6ed}

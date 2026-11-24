@@ -1,0 +1,16 @@
+/* CANDLE 2026 | 05-timeline.css */
+.timeline-section{background:linear-gradient(#fff2cf,#f9f5dd)}
+
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);position:relative;gap:18px}
+
+.timeline:before{content:"";position:absolute;left:12%;right:12%;top:22px;height:3px;background:#d6a447}
+
+.event{position:relative;text-align:center}
+
+.dot{display:grid;place-items:center;margin:0 auto 20px;position:relative;background:#ffda78;border:3px solid #fff8e7;box-shadow:0 0 0 1px #c48d39;color:var(--ink);width:45px;height:45px;border-radius:50%;font-weight:900}
+
+.event time{font-size:.87rem;color:var(--blue);font-weight:800;display:block}
+
+.event h3{font-size:1.06rem;margin:6px 0}
+
+.event p{font-size:.83rem;color:var(--muted)}

@@ -1,0 +1,54 @@
+/* CANDLE 2026 | 03-hero.css */
+.hero{min-height:790px;height:100svh;max-height:1000px;position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;padding:105px 0 130px;background:linear-gradient(180deg,#a9d9f1,#d6f2ef 69%,#fff0c9 100%)}
+
+.hero:before{content:"";position:absolute;inset:0;z-index:-5;background:url("../assets/images/hero-background.webp") center 38%/cover;opacity:.48}
+
+.scene{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+
+.scene img{position:absolute;object-fit:contain}
+
+.cloud{width:80%;top:0;left:10%;opacity:.75}
+
+.sea{width:100%;height:45%;bottom:0;left:0;object-fit:cover!important;opacity:.66}
+
+.sand{width:150%;max-width:none;height:26%;bottom:-9%;left:-25%;object-fit:fill!important}
+
+.palm{height:65%;width:auto;right:-12%;top:9%;transform:rotate(-15deg);filter:drop-shadow(0 8px 10px #365b3420)}
+
+.palm.left{left:-17%;right:auto;top:-20%;transform:rotate(31deg);opacity:.7}
+
+.surf{height:34%;right:4%;bottom:10%;transform:rotate(13deg)}
+
+.stars{width:56%;height:85%;right:5%;top:5%;opacity:.7}
+
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:5px;position:relative}
+
+.hero-copy{position:relative;z-index:2}
+
+.logos{display:inline-flex;align-items:center;gap:12px;background:#fffffff0;border-radius:50px;padding:8px 17px;margin-bottom:25px;box-shadow:0 5px 15px #2a608c12}
+
+.logos img{height:43px;width:48px;object-fit:contain}
+
+.hero .eyebrow{color:#175777;letter-spacing:.18em}
+
+.title-script{display:block;font-family:Georgia,serif;font-weight:900;font-style:italic;font-size:clamp(4rem,8.5vw,7.3rem);line-height:1.02;letter-spacing:-.075em;color:#197fbb;-webkit-text-stroke:1.3px #fff;text-shadow:3px 4px 0 #fff,5px 7px 0 #2672a025}
+
+.title-sub{display:block;font-size:clamp(1.55rem,3.8vw,3rem);line-height:1.05;font-weight:950;text-transform:uppercase;letter-spacing:-.05em;color:#994416;margin-top:10px}
+
+.year{display:block;font-family:Georgia,serif;font-size:clamp(3rem,5.5vw,5rem);line-height:1.1;color:#166aa2;font-style:italic;text-shadow:2px 3px #fff}
+
+.tagline{font-family:Georgia,serif;font-style:italic;font-size:clamp(1.12rem,2vw,1.6rem);margin:17px 0 11px;color:#6f371e;font-weight:bold}
+
+.hero-meta{color:#214e64;font-weight:700;font-size:.9rem}
+
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
+
+.hero-art{position:relative;min-height:460px;display:grid;place-items:center}
+
+.mascot{width:min(100%,460px);filter:drop-shadow(0 22px 14px #654d3035);animation:float 5s ease-in-out infinite}
+
+.compass{position:absolute;width:135px;right:-4%;top:6%;transform:rotate(13deg)}
+
+.hero-bottom{position:absolute;bottom:0;left:0;width:100%;height:65px;background:linear-gradient(transparent,#fff8e8)}
+
+@keyframes float{50%{transform:translateY(-10px)}}

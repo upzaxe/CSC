@@ -1,0 +1,18 @@
+/* CANDLE 2026 | 07-guidebook.css */
+.guide{background:linear-gradient(#e2f3ef,#fff4d6)}
+
+.guide-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:center}
+
+.cover{width: min(100%,285px);border-radius:13px;margin:auto;box-shadow:14px 18px 0 #e9bd6e,0 22px 50px #664a3230;transform:rotate(-3deg)}
+
+.guide-copy h2{margin-bottom:18px}
+
+.guide-copy>p:not(.eyebrow){color:var(--muted)}
+
+.qr-row{display:flex;align-items:center;gap:18px;margin-top:24px;padding:16px;border:1px solid #d6c08a;border-radius:16px;background:#fff9ea;max-width:470px}
+
+.qr-row img{width:92px;image-rendering:pixelated}
+
+.qr-row b{display:block;color:var(--deep)}
+
+.qr-row p{font-size:.83rem}
