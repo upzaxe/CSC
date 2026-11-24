@@ -1,6 +1,32 @@
 /* CANDLE 2026 | 02-navigation.css */
-.nav{position:fixed;top:0;left:0;width:100%;z-index:50;background:rgba(255,251,236,.93);backdrop-filter:blur(15px);border-bottom:1px solid #e5c98b;box-shadow:0 4px 24px #704b1810}
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background: rgba(255,251,236,.93);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid #e5c98b;
+    box-shadow: 0 4px 24px #704b1810;
 
+    /* Header tersembunyi */
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+
+    /* Animasi transisi */
+    transition: transform 0.4s ease,
+                opacity 0.4s ease,
+                visibility 0.4s ease;
+}
+
+/* Header muncul */
+.nav.visible {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
 .nav .wrap{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 
 .brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--deep);line-height:1.1;letter-spacing:-.03em}
