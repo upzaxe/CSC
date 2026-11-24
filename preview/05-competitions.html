@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#e9f6fc"><title>Preview | 05-competitions</title>
+<link rel="stylesheet" href="../css/01-base.css">
+<link rel="stylesheet" href="../css/02-navigation.css">
+<link rel="stylesheet" href="../css/03-hero.css">
+<link rel="stylesheet" href="../css/04-about.css">
+<link rel="stylesheet" href="../css/05-timeline.css">
+<link rel="stylesheet" href="../css/06-competitions.css">
+<link rel="stylesheet" href="../css/07-guidebook.css">
+<link rel="stylesheet" href="../css/08-faq.css">
+<link rel="stylesheet" href="../css/09-footer.css">
+<link rel="stylesheet" href="../css/10-modal.css">
+<link rel="stylesheet" href="../css/11-responsive.css">
+</head><body><section class="section competitions" id="competitions">
+<div class="wrap">
+<div class="section-head"><p class="eyebrow">Choose your adventure</p>
+<h2>Our Competitions</h2><p>Tiga rumpun kompetisi, tujuh pilihan cabang. Temukan tantangan yang sesuai dengan bakatmu.</p></div>
+<div class="cards">
+<article class="card">
+<div aria-hidden="true" class="card-icon"><svg fill="none" height="60" viewbox="0 0 64 64" width="60"><g stroke="#267ca6" stroke-width="3"><ellipse cx="32" cy="32" rx="29" ry="11"></ellipse><ellipse cx="32" cy="32" rx="29" ry="11" transform="rotate(60 32 32)"></ellipse><ellipse cx="32" cy="32" rx="29" ry="11" transform="rotate(120 32 32)"></ellipse></g><circle cx="32" cy="32" fill="#efb34e" r="6"></circle></svg></div><p class="acronym">CSC</p>
+<h3>Cendekia Science Competition</h3><span class="badge">SMP/MTs &amp; sederajat</span>
+<ul class="subjects"><li>Matematika <b>75K</b></li><li>IPA Terpadu <b>75K</b></li><li>IPS Terpadu <b>75K</b></li></ul><p class="card-note">Kuota 100 peserta per bidang<br/>Hadiah + sertifikat</p>
+<div class="actions"><button class="btn" data-modal="csc-reg">Register Now</button><button class="btn outline" data-modal="csc">See Details →</button></div></article>
+<article class="card">
+<div aria-hidden="true" class="card-icon"><svg fill="none" height="60" viewbox="0 0 64 64" width="60"><path d="M32 16c-8-7-18-8-26-4v35c9-4 18-2 26 4 8-6 17-8 26-4V12c-8-4-18-3-26 4Z" fill="#e6edc5" stroke="#658b4c" stroke-width="3"></path><path d="M32 16v35M12 23c6-2 12 0 15 3m-15 7c6-2 12 0 15 3m10-10c4-3 10-5 15-3m-15 13c4-3 10-5 15-3" stroke="#658b4c" stroke-linecap="round" stroke-width="2.5"></path></svg></div><p class="acronym">MAC</p>
+<h3>Musabaqah Al-Qur’an Cendekia</h3><span class="badge">SMP/MTs &amp; sederajat</span>
+<ul class="subjects"><li>MFQ · Fahmil Qur’an <b>150K</b></li><li>MHQ · Hifzil 3 Juz <b>75K</b></li></ul><p class="card-note">Kuota MFQ: 15 tim · MHQ: 24 peserta<br/>Trofi + sertifikat + hadiah</p>
+<div class="actions"><button class="btn" data-modal="mac-reg">Register Now</button><button class="btn outline" data-modal="mac">See Details →</button></div></article>
+<article class="card">
+<div class="card-icon"><img alt="Ilustrasi robot ACR" src="../assets/images/robot-acr.webp"/></div><p class="acronym">ACR</p>
+<h3>Astromic Clash Rumble</h3><span class="badge">Kategori umum</span>
+<ul class="subjects"><li>Robot Line Follower</li><li>Robot 4WD Petualangan</li></ul><p class="card-note">Kuota 50 tim per cabang · Rp250.000 (tarif ACR pada flyer)<br/>Piala + medali + sertifikat</p>
+<div class="actions"><a class="btn" href="https://bit.ly/acr2026robotik" rel="noopener noreferrer" target="_blank">Register Now ↗</a><button class="btn outline" data-modal="acr">See Details →</button></div></article></div></div></section>
+<dialog class="modal" id="modal"><button aria-label="Tutup dialog" class="close">×</button><div id="modal-body"></div></dialog>
+<template id="csc"><p class="eyebrow">Competition details</p><h2>Cendekia Science Competition</h2><p>Tingkat SMP/MTs dan sederajat. Biaya Rp75.000. Kuota 100 peserta per bidang.</p><ul><li>Matematika</li><li>IPA Terpadu</li><li>IPS Terpadu</li></ul><p>Hadiah dan sertifikat. Pelaksanaan 14 Desember 2026.</p><button class="btn" data-modal="csc-reg">Informasi pendaftaran</button></template>
+<template id="mac"><p class="eyebrow">Competition details</p><h2>Musabaqah Al-Qur’an Cendekia</h2><p>Tingkat SMP/MTs dan sederajat.</p><ul><li>MFQ (Fahmil Qur’an): Rp150.000 · 15 tim.</li><li>MHQ (Hifzil 3 Juz): Rp75.000 · 24 peserta.</li></ul><p>Trofi, sertifikat dan hadiah. Pelaksanaan 14 Desember 2026.</p><button class="btn" data-modal="mac-reg">Informasi pendaftaran</button></template>
+<template id="acr"><p class="eyebrow">Competition details</p><h2>Astromic Clash Rumble</h2><p>Kategori umum · 13 Desember 2026. Tarif ACR tercantum Rp250.000 pada flyer; konfirmasi rincian biaya per cabang kepada panitia.</p><ul><li>Robot Line Follower: kuota 50 tim.</li><li>Robot 4WD Petualangan: kuota 50 tim. Wajib dinamo kuning; biaya pembuatan maksimal Rp150.000 (di luar body dan baterai).</li></ul><p>Piala, medali, dan sertifikat.</p><a class="btn" href="https://bit.ly/acr2026robotik" rel="noopener noreferrer" target="_blank">Daftar ACR ↗</a></template>
+<template id="csc-reg"><p class="eyebrow">Registration</p><h2>Pendaftaran CSC</h2><p>25 November–10 Desember 2026.</p><p class="notice">Tautan pendaftaran resmi CSC belum tersedia di dokumen yang diberikan. Hubungi panitia untuk memperoleh formulir dan ketentuan pembayaran.</p><a class="btn" href="https://wa.me/6282285636086" rel="noopener noreferrer" target="_blank">WhatsApp Ghaida ↗</a><a class="btn outline" href="https://wa.me/6281263232544" rel="noopener noreferrer" target="_blank">WhatsApp Adifa ↗</a></template>
+<template id="mac-reg"><p class="eyebrow">Registration</p><h2>Pendaftaran MAC</h2><p>25 November–10 Desember 2026.</p><p class="notice">Tautan pendaftaran resmi MAC belum tersedia di dokumen yang diberikan. Hubungi panitia untuk memperoleh formulir dan ketentuan pembayaran.</p><a class="btn" href="https://wa.me/6285373202996" rel="noopener noreferrer" target="_blank">WhatsApp Kamela ↗</a><a class="btn outline" href="https://wa.me/6287872462295" rel="noopener noreferrer" target="_blank">WhatsApp Aulia ↗</a></template>
+<template id="flyer"><h2>Flyer CANDLE 2026</h2><img alt="Flyer asli CANDLE 2026 berisi informasi perlombaan, pendaftaran, dan kontak panitia" class="flyer-img" src="../assets/images/flyer-candle.jpg"/></template>
+
+<script src="../js/navigation.js"></script>
+<script src="../js/modal.js"></script>
+</body></html>
