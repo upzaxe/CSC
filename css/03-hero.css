@@ -29,6 +29,11 @@
 
 .logos img{height:43px;width:48px;object-fit:contain}
 
+.logos img:nth-child(2) {
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
 .hero .eyebrow{color:#175777;letter-spacing:.18em}
 
 .title-script{display:block;font-family:Georgia,serif;font-weight:900;font-style:italic;font-size:clamp(4rem,8.5vw,7.3rem);line-height:1.02;letter-spacing:-.075em;color:#197fbb;-webkit-text-stroke:1.3px #fff;text-shadow:3px 4px 0 #fff,5px 7px 0 #2672a025}
